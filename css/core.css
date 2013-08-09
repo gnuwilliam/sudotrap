@@ -74,6 +74,20 @@ div.example:before {
 	float: left;
 }
 
+h3.how-to {
+	clear: both;
+	border-left: 5px solid #034569;
+	background: #235B79;
+	color: #FFF;
+	font-weight: 200;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 16px !important;
+}
+
 section.footer {
 	width: 100%;
 	bottom: 0;
@@ -85,6 +99,7 @@ section.footer {
 
 section.footer h3 {
 	font-size: 14px;
+	padding: 20px 0;
 	color: #696969;
 	font-weight: 200;
 }

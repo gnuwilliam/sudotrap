@@ -41,3 +41,15 @@ h3.how-to {
 .gh-follow-button {
 	margin-left: -4px;
 }
+
+h3.subtitle {
+	clear: both;
+	border-left: 5px solid #FF6B40;
+	background: #FFE3DB;
+	color: #000;
+	font-weight: 200;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}

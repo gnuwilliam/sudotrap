@@ -1,28 +1,4 @@
-section.buttons h1 {
-	border-bottom: 1px solid #62D99C;
-	font-weight: 200;
-	color: #000;
-	margin: 0;
-	margin-bottom: 20px;
-}
-
-section.buttons h3:first-child {
-	margin-top: 0;
-}
-
-section.buttons h3.subtitle {
-	clear: both;
-	border-left: 5px solid #FF6B40;
-	background: #FFE3DB;
-	color: #000;
-	font-weight: 200;
-	font-size: 12px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-section.buttons button.btn {
+.btn {
 	height: 40px;
 	border: none;
 	background: #64A8D1;
@@ -39,54 +15,54 @@ section.buttons button.btn {
 		    transition: all 0.2s ease-in-out;
 }
 
-section.buttons button.btn:hover {
+.btn:hover {
 	background: #3D9AD1;
 }
 
-section.buttons button.btn-100 {
+.btn-100 {
 	width: 100%;
 }
 
-section.buttons button.btn-50 {
+.btn-50 {
 	width: 50%;
 }
 
-section.buttons button.btn-25 {
+.btn-25 {
 	width: 25%;
 }
 
-section.buttons button.btn-10 {
+.btn-10 {
 	width: 10%;
 }
 
-section.buttons button.btn-success {
+.btn-success {
 	background: #5cb85c;
 }
 
-section.buttons button.btn-success:hover {
+.btn-success:hover {
 	background: #47a447;
 }
 
-section.buttons button.btn-info {
+.btn-info {
 	background: #5bc0de;
 }
 
-section.buttons button.btn-info:hover {
+.btn-info:hover {
 	background: #39b3d7;
 }
 
-section.buttons button.btn-warning {
+.btn-warning {
 	background: #f0ad4e;
 }
 
-section.buttons button.btn-warning:hover {
+.btn-warning:hover {
 	background: #ed9c28;
 }
 
-section.buttons button.btn-danger {
+.btn-danger {
 	background: #d9534f;
 }
 
-section.buttons button.btn-danger:hover {
+.btn-danger:hover {
 	background: #d2322d;
 }

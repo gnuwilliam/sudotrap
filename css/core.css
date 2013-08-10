@@ -57,12 +57,14 @@ section.buttons {
 	clear: both;
 }
 
-section.buttons div.example {
+div.example {
 	clear: both;
 	width: 100%;
+	margin-bottom: 20px;
+	float: left;
 }
 
-section.buttons div.example:before {
+div.example:before {
 	content: "Example";
 	font-size: 14px;
 	font-weight: 700;
@@ -72,62 +74,32 @@ section.buttons div.example:before {
 	float: left;
 }
 
-section.buttons h1 {
-	border-bottom: 1px solid #62D99C;
-	font-weight: 200;
-	color: #000;
-	margin: 0;
-	margin-bottom: 20px;
-}
-
-section.buttons button.btn {
-	height: 40px;
-	border: none;
-	background: #64A8D1;
-	color: #FFF;
-	font-weight: 400;
-	float: left;
+h3.how-to {
 	clear: both;
-	margin-bottom: 10px;
-
-	-webkit-transition: all 0.2s ease-in-out;
-	   -moz-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-         -o-transition: all 0.2s ease-in-out;
-		    transition: all 0.2s ease-in-out;
-}
-
-section.buttons button.btn:hover {
-	background: #3D9AD1;
-}
-
-section.buttons button.btn-100 {
-	width: 100%;
-}
-
-section.buttons button.btn-50 {
-	width: 50%;
-}
-
-section.buttons button.btn-25 {
-	width: 25%;
-}
-
-section.buttons button.btn-10 {
-	width: 10%;
+	border-left: 5px solid #034569;
+	background: #235B79;
+	color: #FFF;
+	font-weight: 200;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 16px !important;
 }
 
 section.footer {
 	width: 100%;
-	position: absolute;
 	bottom: 0;
 	border-top: 1px solid #eaeaea;
 	float: left;
 	text-align: center;
+	background: #FFF;
 }
 
 section.footer h3 {
 	font-size: 14px;
+	padding: 20px 0;
 	color: #696969;
 	font-weight: 200;
 }

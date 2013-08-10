@@ -7,7 +7,7 @@ section.alert {
 	width: 100%;
 	float: left;
 	padding: 5px 0;
-	background: #218457;
+	background: #49A375;
 	color: #FFF;
 }
 
@@ -15,11 +15,12 @@ section.alert h3 {
 	margin: 0;
 	font-size: 14px;
 	font-weight: 200;
+	text-align: center;
 }
 
 section.alert strong {
-	color: #FF9973;
-	text-shadow: 0px 1px 1px #000;
+	color: #FFBAA1;
+	text-shadow: 0px 1px 1px #3B3B3B;
     filter: dropshadow(color=#000, offx=0, offy=1);
 }
 
@@ -31,7 +32,6 @@ section.fixed {
 	right: 0;
 	left: 0;
 	background: #62D99C;
-	margin-bottom: 20px;
 }
 
 section.fixed h1 {
@@ -86,6 +86,67 @@ h3.how-to {
 	padding-left: 10px;
 	text-align: center;
 	font-size: 16px !important;
+}
+
+.gh-button {
+	width: 80px;
+}
+
+.gh-follow-button {
+	margin-left: -4px;
+}
+
+section.follow {
+	width: 100%;
+	float: left;
+	z-index: 10;
+	right: 0;
+	left: 0;
+	background: #58C48D;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+section.intro {
+	width: 100%;
+	float: left;
+	z-index: 10;
+	right: 0;
+	left: 0;
+	margin-bottom: 20px;
+	background: #34495e;
+	padding: 40px 0;
+}
+
+section.intro h1 {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #FFF;
+	margin: 0;
+	padding: 5px 0;
+	padding-bottom: 0;
+}
+
+section.intro p {
+	font-size: 14px;
+	color: #E8E8E8;
+	font-weight: 200;
+}
+
+section.intro p a {
+	text-decoration: none;
+	font-weight: 400;
+	color: #64A8D1;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+	    -ms-transition: all 0.2s ease-in-out;
+	     -o-transition: all 0.2s ease-in-out;
+	        transition: all 0.2s ease-in-out;
+}
+
+section.intro p a:hover {
+	color: #FFF;
 }
 
 section.footer {

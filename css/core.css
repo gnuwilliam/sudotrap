@@ -133,7 +133,8 @@ section.intro p {
 	font-weight: 200;
 }
 
-section.intro p a {
+section.intro p a,
+section.grid-system p a {
 	text-decoration: none;
 	font-weight: 400;
 	color: #64A8D1;
@@ -146,6 +147,47 @@ section.intro p a {
 }
 
 section.intro p a:hover {
+	color: #FFF;
+}
+
+section.grid-system {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+section.grid-system h1.title {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #000;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+section.grid-system p {
+	font-weight: 200;
+}
+
+section.grid-system p a:hover {
+	color: #000;
+}
+
+section.grid-system .grid-full div {
+	background: #3498db;
+	height: 55px;
+	color: #333;
+	margin-bottom: 15px;
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+
+section.grid-system .grid-full div:nth-child(even) {
+	background: #2980b9;
+}
+
+section.grid-system .grid-full div p {
+	padding: 0 10px;
 	color: #FFF;
 }
 

@@ -53,3 +53,8 @@ h3.subtitle {
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+
+.section {
+	width: 100%;
+	float: left;
+}

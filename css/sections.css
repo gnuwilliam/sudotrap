@@ -1,6 +1,6 @@
+/* alert section */
+
 section.alert {
-	width: 100%;
-	float: left;
 	padding: 5px 0;
 	background: #49A375;
 	color: #FFF;
@@ -19,13 +19,9 @@ section.alert strong {
     filter: dropshadow(color=#000, offx=0, offy=1);
 }
 
+/* fixed section */
+
 section.fixed {
-	width: 100%;
-	float: left;
-	z-index: 10;
-	top: 0;
-	right: 0;
-	left: 0;
 	background: #62D99C;
 }
 
@@ -48,23 +44,17 @@ section.fixed h1 strong {
 	color: #22884F;
 }
 
+/* follow section */
+
 section.follow {
-	width: 100%;
-	float: left;
-	z-index: 10;
-	right: 0;
-	left: 0;
 	background: #58C48D;
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
 
+/* intro section */
+
 section.intro {
-	width: 100%;
-	float: left;
-	z-index: 10;
-	right: 0;
-	left: 0;
 	margin-bottom: 20px;
 	background: #2c3e50;
 	padding: 40px 0;
@@ -93,7 +83,8 @@ section.intro p {
 }
 
 section.intro p a,
-section.grid-system p a {
+section.grid-system p a,
+section.tables p a {
 	text-decoration: none;
 	font-weight: 400;
 	color: #64A8D1;
@@ -109,73 +100,9 @@ section.intro p a:hover {
 	color: #FFF;
 }
 
-section.typo h1.title {
-	border-bottom: 1px solid #62D99C;
-	font-weight: 200;
-	color: #000;
-	margin: 0;
-	margin-bottom: 20px;
-}
-
-section.typo h3.subtitle {
-	clear: both;
-	border-left: 5px solid #FF6B40;
-	background: #FFE3DB;
-	color: #000;
-	font-weight: 200;
-	font-size: 12px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
-}
-
-section.typo h1,h2,h3,h4,h5,h6 {
-	clear: both;
-	margin: 0;
-}
-
-section.typo pre code {
-	text-align: left;
-	margin-left: 25px;
-	padding-left: 0;
-	margin-top: -20px;
-	padding: 0;
-	white-space: pre-line;
-	float: left;
-}
-
-section.blockquotes {
-	clear: both;
-	width: 100%;
-}
-
-section.blockquotes h1 {
-	border-bottom: 1px solid #62D99C;
-	font-weight: 200;
-	color: #000;
-	margin: 0;
-	margin-bottom: 20px;
-}
-
-section.buttons {
-	clear: both;
-}
-
-section.buttons h1 {
-	border-bottom: 1px solid #62D99C;
-	font-weight: 200;
-	color: #000;
-	margin: 0;
-	margin-bottom: 20px;
-}
-
-section.buttons h3:first-child {
-	margin-top: 0;
-}
+/* grid-system section */
 
 section.grid-system {
-	width: 100%;
-	float: left;
 	margin-bottom: 20px;
 }
 
@@ -213,6 +140,105 @@ section.grid-system .grid-full div p {
 	padding: 0 10px;
 	color: #FFF;
 }
+
+/* typo section */
+
+section.typo h1.title {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #000;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+section.typo h3.subtitle {
+	clear: both;
+	border-left: 5px solid #FF6B40;
+	background: #FFE3DB;
+	color: #000;
+	font-weight: 200;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+section.typo h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	margin: 0;
+}
+
+section.typo pre code {
+	text-align: left;
+	margin-left: 25px;
+	padding-left: 0;
+	margin-top: -20px;
+	padding: 0;
+	white-space: pre-line;
+	float: left;
+}
+
+/* blockquotes section */
+
+section.blockquotes h1 {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #000;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+/* blockquotes section */
+
+section.lists h1 {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #000;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+section.lists div.example {
+	margin-bottom: 0;
+}
+
+/* tables section */
+
+section.tables h1 {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #000;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+section.tables p {
+	font-weight: 200;
+}
+
+section.tables p a:hover {
+	color: #000;
+}
+
+/* buttons section */
+
+section.buttons {
+	clear: both;
+}
+
+section.buttons h1 {
+	border-bottom: 1px solid #62D99C;
+	font-weight: 200;
+	color: #000;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+section.buttons h3:first-child {
+	margin-top: 0;
+}
+
+/* footer section */
 
 section.footer {
 	width: 100%;

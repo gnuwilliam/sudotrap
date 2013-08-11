@@ -58,3 +58,9 @@ h3.subtitle {
 	width: 100%;
 	float: left;
 }
+
+.gist {
+	float: left;
+	width: 100%;
+	clear: both;
+}

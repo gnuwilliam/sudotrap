@@ -1,0 +1,29 @@
+/* line 1, ../../sass/partials/typography.sass */
+h1 {
+  font-size: 38px;
+}
+
+/* line 4, ../../sass/partials/typography.sass */
+h2 {
+  font-size: 32px;
+}
+
+/* line 7, ../../sass/partials/typography.sass */
+h3 {
+  font-size: 24px;
+}
+
+/* line 10, ../../sass/partials/typography.sass */
+h4 {
+  font-size: 18px;
+}
+
+/* line 13, ../../sass/partials/typography.sass */
+h5 {
+  font-size: 16px;
+}
+
+/* line 16, ../../sass/partials/typography.sass */
+h6 {
+  font-size: 12px;
+}

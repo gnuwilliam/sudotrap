@@ -1,0 +1,88 @@
+/*
+Syntax error: File to import not found or unreadable: url "main".
+              Load paths:
+                /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass
+                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets
+                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-960-plugin-0.10.4/stylesheets
+                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/yui-compass-plugin-0.3/stylesheets
+                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-h5bp-0.0.5/stylesheets
+                /Applications/Scout.app/Contents/Resources/vendor/gems/gems/zen-grids-1.2/stylesheets
+                Compass::SpriteImporter
+        on line 2 of /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/_base.sass
+        from line 7 of /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/core.sass
+
+1: /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/core.sass
+
+Backtrace:
+/Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/_base.sass:2
+/Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/core.sass:7
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `import'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/import_node.rb:62:in `import'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `visit_import'
+org/jruby/RubyArray.java:2336:in `collect'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `visit_import'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2336:in `collect'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+org/jruby/RubyKernel.java:2096:in `send'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyKernel.java:1419:in `loop'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: url \"main\".\A               Load paths:\A                 /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-960-plugin-0.10.4/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/yui-compass-plugin-0.3/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-h5bp-0.0.5/stylesheets\A                 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/zen-grids-1.2/stylesheets\A                 Compass::SpriteImporter\A         on line 2 of /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/_base.sass\A         from line 7 of /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/core.sass\A \A 1: /Users/jeancarlonascimento/www/projetos/open/sudotrap/sass/partials/core.sass"; }

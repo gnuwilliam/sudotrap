@@ -1,0 +1,76 @@
+/* line 1, ../sass/buttons.sass */
+.btn {
+  height: 40px;
+  border: none;
+  background: #64a8d1;
+  color: white;
+  font-weight: 400;
+  float: left;
+  clear: both;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 15, ../sass/buttons.sass */
+.btn:hover {
+  background: #3d9ad1;
+}
+
+/* line 18, ../sass/buttons.sass */
+.btn-100 {
+  width: 100%;
+}
+
+/* line 21, ../sass/buttons.sass */
+.btn-50 {
+  width: 50%;
+}
+
+/* line 24, ../sass/buttons.sass */
+.btn-25 {
+  width: 25%;
+}
+
+/* line 27, ../sass/buttons.sass */
+.btn-10 {
+  width: 10%;
+}
+
+/* line 30, ../sass/buttons.sass */
+.btn-success {
+  background: #5cb85c;
+}
+/* line 32, ../sass/buttons.sass */
+.btn-success:hover {
+  background: #47a447;
+}
+
+/* line 35, ../sass/buttons.sass */
+.btn-info {
+  background: #5bc0de;
+}
+/* line 37, ../sass/buttons.sass */
+.btn-info:hover {
+  background: #39b3d7;
+}
+
+/* line 40, ../sass/buttons.sass */
+.btn-warning {
+  background: #f0ad4e;
+}
+/* line 42, ../sass/buttons.sass */
+.btn-warning:hover {
+  background: #ed9c28;
+}
+
+/* line 45, ../sass/buttons.sass */
+.btn-danger {
+  background: #d9534f;
+}
+/* line 47, ../sass/buttons.sass */
+.btn-danger:hover {
+  background: #d2322d;
+}

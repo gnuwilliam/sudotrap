@@ -1,0 +1,13 @@
+/* line 1, ../sass/lists.sass */
+ul, ol {
+  float: left;
+  clear: both;
+  margin-top: 0;
+  width: 100%;
+}
+
+/* line 7, ../sass/lists.sass */
+li {
+  float: left;
+  clear: both;
+}

@@ -1,0 +1,51 @@
+/* line 2, ../../sass/partials/main.sass */
+html, button, input, select, textarea {
+  color: #222222;
+}
+
+/* line 5, ../../sass/partials/main.sass */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 9, ../../sass/partials/main.sass */
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 15, ../../sass/partials/main.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 25, ../../sass/partials/main.sass */
+img {
+  vertical-align: middle;
+}
+
+/* line 30, ../../sass/partials/main.sass */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 37, ../../sass/partials/main.sass */
+textarea {
+  resize: vertical;
+}
+
+/* line 44, ../../sass/partials/main.sass */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #cccccc;
+  color: black;
+  padding: 0.2em 0;
+}

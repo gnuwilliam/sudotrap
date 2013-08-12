@@ -14,3 +14,8 @@
 
 @import url("highlight.css");
 @import url("misc.css");
+
+.radius,
+.radius input {
+  border-radius: 5px;
+}

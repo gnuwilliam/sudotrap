@@ -800,7 +800,45 @@
 
                     <script src="https://gist.github.com/gnuwilliam/6207141.js"></script>
 
-                    <h3 class="subtitle">inline form</h3>
+                    <h3 class="subtitle">normal rounded</h3>
+
+                    <div class="example">
+                        <form>
+                            <fieldset>
+                                <legend>Legend</legend>
+
+                                <div class="form-group radius">
+                                    <label for="exampleInputEmail">Email</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+                                </div>
+
+                                <div class="form-group radius">
+                                    <label for="exampleInputPassword">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+                                </div>
+
+                                <div class="form-group radius">
+                                    <label for="exampleInputFile">File input</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Check me out
+                                    </label>
+                                </div>
+
+                                <button type="submit" class="btn btn-10 radius">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <h3 class="how-to">HOW-TO</h3>
+
+                    <script src="https://gist.github.com/gnuwilliam/6216172.js"></script>
+
+                    <h3 class="subtitle">inline</h3>
 
                     <div class="example">
                         <form class="form-inline">
@@ -821,6 +859,28 @@
                     <h3 class="how-to">HOW-TO</h3>
 
                     <script src="https://gist.github.com/gnuwilliam/6207145.js"></script>
+
+                    <h3 class="subtitle">inline rounded</h3>
+
+                    <div class="example">
+                        <form class="form-inline">
+                            <input type="text" class="form-control radius" placeholder="Email">
+
+                            <input type="password" class="form-control radius" placeholder="Password">
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-default radius">Sign in</button>
+                        </form>
+                    </div>
+
+                    <h3 class="how-to">HOW-TO</h3>
+
+                    <script src="https://gist.github.com/gnuwilliam/6216180.js"></script>
 
                     <h3 class="subtitle">horizontal form</h3>
 
@@ -884,6 +944,29 @@
                     <h3 class="how-to">HOW-TO</h3>
 
                     <script src="https://gist.github.com/gnuwilliam/6207153.js"></script>
+
+                    <h3 class="subtitle">validation states rounded</h3>
+
+                    <div class="example">
+                        <div class="form-group has-warning">
+                            <label class="control-label" for="inputWarning">Input with warning</label>
+                            <input type="text" class="form-control radius" id="inputWarning">
+                        </div>
+
+                        <div class="form-group has-error">
+                            <label class="control-label" for="inputError">Input with error</label>
+                            <input type="text" class="form-control radius" id="inputError">
+                        </div>
+
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess">Input with success</label>
+                            <input type="text" class="form-control radius" id="inputSuccess">
+                        </div>
+                    </div>
+
+                    <h3 class="how-to">HOW-TO</h3>
+
+                    <script src="https://gist.github.com/gnuwilliam/6216192.js"></script>                    
                 </div>
             </div>
         </section>
@@ -936,6 +1019,53 @@
                         <button type="button" class="btn btn-50 btn-danger">button</button>
                         <button type="button" class="btn btn-25 btn-danger">button</button>
                         <button type="button" class="btn btn-10 btn-danger">button</button>
+                    </div>
+
+                    <!-- rounded -->
+
+                    <h3 class="subtitle">default buttons - rounded</h3>
+
+                    <div class="example">
+                        <button type="button" class="btn btn-100 radius">button</button>
+                        <button type="button" class="btn btn-50 radius">button</button>
+                        <button type="button" class="btn btn-25 radius">button</button>
+                        <button type="button" class="btn btn-10 radius">button</button>
+                    </div>
+
+                    <h3 class="subtitle">success buttons - rounded</h3>
+                    
+                    <div class="example">
+                        <button type="button" class="btn btn-100 btn-success radius">button</button>
+                        <button type="button" class="btn btn-50 btn-success radius">button</button>
+                        <button type="button" class="btn btn-25 btn-success radius">button</button>
+                        <button type="button" class="btn btn-10 btn-success radius">button</button>
+                    </div>
+
+                    <h3 class="subtitle">info buttons - rounded</h3>
+                    
+                    <div class="example">
+                        <button type="button" class="btn btn-100 btn-info radius">button</button>
+                        <button type="button" class="btn btn-50 btn-info radius">button</button>
+                        <button type="button" class="btn btn-25 btn-info radius">button</button>
+                        <button type="button" class="btn btn-10 btn-info radius">button</button>
+                    </div>
+
+                    <h3 class="subtitle">warning buttons - rounded</h3>
+                    
+                    <div class="example">
+                        <button type="button" class="btn btn-100 btn-warning radius">button</button>
+                        <button type="button" class="btn btn-50 btn-warning radius">button</button>
+                        <button type="button" class="btn btn-25 btn-warning radius">button</button>
+                        <button type="button" class="btn btn-10 btn-warning radius">button</button>
+                    </div>
+
+                    <h3 class="subtitle">danger buttons - rounded</h3>
+                    
+                    <div class="example">
+                        <button type="button" class="btn btn-100 btn-danger radius">button</button>
+                        <button type="button" class="btn btn-50 btn-danger radius">button</button>
+                        <button type="button" class="btn btn-25 btn-danger radius">button</button>
+                        <button type="button" class="btn btn-10 btn-danger radius">button</button>
                     </div>
 
                     <h3 class="how-to">HOW-TO</h3>

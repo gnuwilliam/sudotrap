@@ -1,0 +1,189 @@
+/* line 2, ../sass/main.sass */
+html, button, input, select, textarea {
+  color: #222222;
+}
+
+/* line 5, ../sass/main.sass */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 9, ../sass/main.sass */
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 15, ../sass/main.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 25, ../sass/main.sass */
+img {
+  vertical-align: middle;
+}
+
+/* line 30, ../sass/main.sass */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 37, ../sass/main.sass */
+textarea {
+  resize: vertical;
+}
+
+/* line 44, ../sass/main.sass */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #cccccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+/* line 57, ../sass/main.sass */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+/* line 63, ../sass/main.sass */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 71, ../sass/main.sass */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 77, ../sass/main.sass */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 87, ../sass/main.sass */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 99, ../sass/main.sass */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 103, ../sass/main.sass */
+.clearfix {
+  *zoom: 1;
+}
+/* line 104, ../sass/main.sass */
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+/* line 107, ../sass/main.sass */
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+@media print {
+  /* line 134, ../sass/main.sass */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 140, ../sass/main.sass */
+  a {
+    text-decoration: underline;
+  }
+  /* line 142, ../sass/main.sass */
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 144, ../sass/main.sass */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 146, ../sass/main.sass */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 149, ../sass/main.sass */
+  .ir a:after {
+    content: "";
+  }
+
+  /* line 152, ../sass/main.sass */
+  a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 154, ../sass/main.sass */
+  pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 157, ../sass/main.sass */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 160, ../sass/main.sass */
+  tr {
+    page-break-inside: avoid;
+  }
+
+  /* line 162, ../sass/main.sass */
+  img {
+    page-break-inside: avoid;
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 168, ../sass/main.sass */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 171, ../sass/main.sass */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}

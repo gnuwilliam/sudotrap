@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/gnuwilliam/sudotrap.png?label=ready)](https://waffle.io/gnuwilliam/sudotrap)  
 sudotrap
 ========
 
